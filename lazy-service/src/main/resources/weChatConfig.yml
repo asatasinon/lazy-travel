@@ -1,0 +1,8 @@
+weChat:
+  public:
+    appId: wx84d090c313ff1287
+    appSecret: 3cebf4241b8d884ead9b94a544992424
+
+  miniApp:
+    appId: wxde3bac00d0a4556c
+    appSecret: 5ae3bcf02eeef26b315b398064173a87

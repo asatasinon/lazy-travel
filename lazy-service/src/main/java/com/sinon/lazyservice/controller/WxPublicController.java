@@ -45,9 +45,8 @@ public class WxPublicController {
         return null;
     }
 
-
-    @GetMapping(value = "test")
-    public String test(HttpServletRequest request, HttpServletResponse response) {
-        return request.getRequestURL().toString();
+    @GetMapping(value = "test/{id}")
+    public String test(@PathVariable("id") String id, HttpServletRequest request, HttpServletResponse response) {
+        return id;
     }
 }
